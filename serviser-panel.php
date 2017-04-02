@@ -30,7 +30,7 @@
 			</div>
 			<div class="content">
 			<?php
-				
+
 				if(isset($_SESSION['adminUser'])){
 					require_once('menu-admin.php');
 				}else if(isset($_SESSION['serviserUser'])){
@@ -38,10 +38,10 @@
 				}else {
 					require_once('menu.php');
 				}
-				
+
 			?>
 				<div class="panel">
-					<a href="kvar-pregled-serviser.php">Pregled svih kvarova</a><br>
+					<a href="kvar-pregled.php">Pregled svih kvarova</a><br>
 					<a href="kvar-register-ser.php">Prijavi novi kvar</a>
 				</div>
 			</div>
@@ -49,7 +49,7 @@
 				<p class="cr">2017 &copy; Lion Computers</p>
 				<p class="links">
 					<a href="admin-login.php">Admin Login</a>
-					 | 
+					 |
 					<a href="serviser-login.php">Serviser Login</a>
 				</p>
 			</div>

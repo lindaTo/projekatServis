@@ -43,7 +43,7 @@ CREATE TABLE `admini` (
 
 LOCK TABLES `admini` WRITE;
 /*!40000 ALTER TABLE `admini` DISABLE KEYS */;
-INSERT INTO `admini` VALUES (1,'Milos','Velickovic','0641019726','miloshvelich@gmail.com','Admin','adriano10'),(5,'Mauro','Icardi','012345678','mauro@icardi.com','Mauro9','ikardi9'),(6,'Leite Ribeiro','Adriano','064101010','adriano@imperatore.br','Adriano10','5445036a40dced79358dfb223abf5def8a512b5b4f06df6766fd3a3d20361372');
+INSERT INTO `admini` VALUES (1,'Admin','Adminovic','0641019726','admin@admin.com','admin','admin'),(5,'admina','adminic','012345678','admina@admina.com','admina','admina');
 /*!40000 ALTER TABLE `admini` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -105,7 +105,7 @@ CREATE TABLE `serviseri` (
 
 LOCK TABLES `serviseri` WRITE;
 /*!40000 ALTER TABLE `serviseri` DISABLE KEYS */;
-INSERT INTO `serviseri` VALUES (1,'Solim','Civokcilev','0641019726','miloshvelich@mail.com','Somi','adriano10!',1000),(2,'Zoran','Gajić','0641234567','zokakoka@gmail.com','Zupermen','gajadojaja',900);
+INSERT INTO `serviseri` VALUES (1,'Marko','Markovic','064123456','marko@marko.com','marko','marko',1000),(2,'Milos','Milosevic','0641234567','milos@milos.com','milos','milos',900);
 /*!40000 ALTER TABLE `serviseri` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
